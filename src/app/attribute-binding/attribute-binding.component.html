@@ -1,0 +1,20 @@
+<hr />
+
+<div>
+  <h2>{{title}}</h2>
+  <p>There's a difference between HTML attributes and DOM Properties.
+    While doing property binding, we are assigning value to DOM Properties and not HTML attributes.
+    In 99% cases, there is a one to one mapping between these two.
+    In remaining 1% cases, use attribute binding like below
+  </p>
+</div>
+
+<div>
+  <table>
+    <tr>
+      <td [attr.colspan]=colspan>
+        No Output in this case, just that error shows up if you remove attr
+      </td>
+    </tr>
+  </table>
+</div>

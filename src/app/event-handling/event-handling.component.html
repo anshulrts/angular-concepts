@@ -1,0 +1,9 @@
+<div>
+  <h2>{{title}}</h2>
+</div>
+
+<div (click)="onOuterDivClick($event)">
+  <div (click)="onInnerDivClick($event)">
+    <button (click)="onButtonClick($event)">Test</button>
+  </div>
+</div>

@@ -8,6 +8,7 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { AttributeBindingComponent } from './attribute-binding/attribute-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { EventHandlingComponent } from './event-handling/event-handling.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
     PropertyBindingComponent,
     AttributeBindingComponent,
     ClassBindingComponent,
-    StyleBindingComponent
+    StyleBindingComponent,
+    EventHandlingComponent
   ],
   imports: [
     BrowserModule,

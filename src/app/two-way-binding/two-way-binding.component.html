@@ -1,0 +1,11 @@
+<div>
+  <h2>{{title}}</h2>
+</div>
+
+<div>
+  <p>
+    Property Binding works unidirectionally from Component to View. Therefore, we use banana in the box syntax
+    for 2 way binding from view to component and vice versa. To use ngModel, we import FormsModule in the AppModule.
+  </p>
+  <input [(ngModel)]="email" (keyup.enter)="onKeyUp()">
+</div>

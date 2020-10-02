@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BuiltinDirectiveComponent } from './builtin-directive/builtin-directive.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { AttributeBindingComponent } from './attribute-binding/attribute-binding.component';
+import { ClassBindingComponent } from './class-binding/class-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BuiltinDirectiveComponent,
     PropertyBindingComponent,
-    AttributeBindingComponent
+    AttributeBindingComponent,
+    ClassBindingComponent
   ],
   imports: [
     BrowserModule,

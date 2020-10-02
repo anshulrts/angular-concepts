@@ -1,0 +1,11 @@
+<hr />
+
+<div>
+  <h2>{{ title }}</h2>
+</div>
+
+<div>
+  <p>Here, the first button will have a class "active" added to it.</p>
+  <button class="btn btn-primary" [class.active]="isActive"></button>
+  <button class="btn btn-secondary" [class.active]="!isActive"></button>
+</div>

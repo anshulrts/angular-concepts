@@ -12,6 +12,8 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { EventHandlingComponent } from './event-handling/event-handling.component';
 import { TemplateVariableComponent } from './template-variable/template-variable.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
+import { SummaryPipe } from './summary.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     StyleBindingComponent,
     EventHandlingComponent,
     TemplateVariableComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    CustomPipeComponent,
+    SummaryPipe
   ],
   imports: [
     BrowserModule,

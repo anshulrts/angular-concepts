@@ -15,4 +15,8 @@ export class InputPropertiesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onFavoriteClick(eventArgs) {
+    console.log("Favorite Changed", eventArgs);
+  }
+
 }

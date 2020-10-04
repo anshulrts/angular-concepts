@@ -2,4 +2,4 @@
   <h2>{{title}}</h2>
 </div>
 
-<app-favorite [is-favorite]="isFavorite"></app-favorite>
+<app-favorite [is-favorite]="isFavorite" (click)="onFavoriteClick($event)"></app-favorite>

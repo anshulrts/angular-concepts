@@ -1,0 +1,25 @@
+<div>
+  {{title}}
+</div>
+
+<div>
+  <p>
+    Imagine you want to create a re-usable bootstrap panel. Since it is reusable, the consumer
+    of that panel component should be able to provide the content of that panel.
+    We use ngContent for this.
+
+    Here, this component is the consumer of bootstrap-panel component.
+
+    Note: Bootstrap Panel is dropped in Bootstrap 4, hence it will not be visible in a panel
+  </p>
+</div>
+
+<app-bootstrap-panel>
+  <div class="heading">Heading</div>
+  <div class="body">
+    <h2>
+      Body
+    </h2>
+    <p>Some content goes here...</p>
+  </div>
+</app-bootstrap-panel>

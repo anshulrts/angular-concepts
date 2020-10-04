@@ -16,6 +16,8 @@ import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
 import { SummaryPipe } from './summary.pipe';
 import { InputPropertiesComponent } from './input-properties/input-properties.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { NgcontentComponent } from './ngcontent/ngcontent.component';
+import { BootstrapPanelComponent } from './bootstrap-panel/bootstrap-panel.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { FavoriteComponent } from './favorite/favorite.component';
     CustomPipeComponent,
     SummaryPipe,
     InputPropertiesComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    NgcontentComponent,
+    BootstrapPanelComponent
   ],
   imports: [
     BrowserModule,
